@@ -4,6 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
+    "prisma-deploy": "PRISMA_MANAGEMENT_API_SECRET=hackernews-super-secret-123 prisma deploy",
     "dev": "nodemon ./src/index.js"
   },
   "dependencies": {

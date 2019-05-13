@@ -1,6 +1,8 @@
 # The HTTP endpoint for your Prisma API
 #endpoint: ''
-endpoint: https://us1.prisma.sh/frito/hackernews-node/dev
+#endpoint: https://us1.prisma.sh/frito/hackernews-node/dev
+endpoint: http://localhost:4466/service/hackernews-node
+secret: hackernews-super-secret-123
 
 # Points to the file that contains your datamodel
 datamodel: datamodel.prisma
